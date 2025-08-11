@@ -8,9 +8,9 @@ print(f"\nYour BMI is: {BMI}")
 #Responses according to conditions 
 if BMI<18.5:
   print("You are underweight")
-if (BMI>=18.5, BMI<24.9):
+elif (BMI>=18.5, BMI<24.9):
   print("You have a normal weight")
-if BMI>24.9:
+elif BMI>24.9:
   print("You are overweight ")
 else:
   print("You are obese")
